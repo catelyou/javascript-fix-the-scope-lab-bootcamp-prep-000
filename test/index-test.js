@@ -29,7 +29,7 @@ describe('Fix the Scope', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
     })
   })
-var theFunk = funkyFunction()
+
   describe('theFunk', function() {
     it('is "FUNKY!"', function() {
       expect(window.theFunk).toEqual('FUNKY!')
